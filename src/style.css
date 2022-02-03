@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    padding: 5%;
+}
+
+#header{
+    width: 100%;
+    overflow: hidden;
+}
+
+li{
+    display: inline;
+    float:right;
+    padding: 20px;
+}
+
+#logo{
+    margin: 50px 0;
+}
+
+#container1{
+    width: 100%;
+    background-color: rgb(238, 231, 231);
+    padding: 5% 3%;
+  
+}
+
+#container1 p{
+    width: 25%;
+    margin: 20px 0;
+}
+
+#container1 h2{
+    font-size:1.8rem;
+}
+
+#container1 button{
+    width: 10%;
+    padding: 5px 5px;
+    border:1px solid grey;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#container2{ 
+    display :flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 5px;
+    overflow: hidden; 
+}
+
+#block1,#block2,#block3{
+    
+    width: 33%;
+    margin: 40px;
+}
+
+#block1 .image{
+    width: 100%;
+    padding: 24%;
+    background-color:lightgray ;
+}
+
+
+#block2 .image{
+    width: 100%;
+    padding: 24%;
+    background-color:lightgray ;
+}
+
+#block3 .image{
+    width: 100%;
+    padding: 24%;
+    background-color:lightgray;
+}
+
+#block1 .text{
+    width: 100%;
+    padding:3%;
+    text-align: center;
+ 
+}
+
+#block2 .text{
+    width: 100%;
+    padding:3%;
+    text-align: center;
+  
+}
+
+#block3 .text{
+    width: 100%;
+    padding:3%;
+    text-align: center;
+    
+}
+
+.text a{
+color:black;
+}
+
+
+.text p{
+    margin: 5%;
+}
+
+.text h2{
+    margin: 5%;
+}
+
+.text a{
+    margin: 5%;
+}
+
+
+#container3{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 2% 10%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#container3 input{
+    width: 40%;
+    padding: 1.5% 1.5%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+#container3 span{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 2.5%;
+}
+
+#container3 button{
+    width: 25%;
+    padding: 1% 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:white;
+    text-align: left;
+    background-color: rgb(37, 114, 144);
+    border:0;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5%;
+    font-size: 1.1rem;
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+        #container2{ 
+            display :flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 5px 5px;
+            overflow: none; 
+        }
+
+
+#block1,#block2,#block3{
+    width: 100%;
+    margin: 40px;
+}
+
+#block1 .image{
+    width: 100%;
+    padding: 24%;
+    background-color:lightgray ;
+}
+
+
+#block2 .image{
+    width: 100%;
+    padding: 24%;
+    background-color:lightgray ;
+}
+
+#block3 .image{
+    width: 100%;
+    padding: 24%;
+    background-color:lightgray;
+}
+
+#block1 .text{
+    width: 100%;
+    padding:1%;
+    text-align: center;
+ 
+}
+
+#block2 .text{
+    width: 100%;
+    padding:1%;
+    text-align: center;
+  
+}
+
+#block3 .text{
+    width: 100%;
+    padding:1%;
+    text-align: center;
+    
+}
+
+#container3{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 2% 2%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#container3 input{
+    width: 70%;
+    padding: 1.5% 1.5%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+#container3 button{
+    width: 22%;
+    font-size: 1rem;
+    color:white;
+    text-align: left;
+    background-color: rgb(37, 114, 144);
+    border:0;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5%;
+    font-size: 1.1rem;
+    }
+
+
+#container1 p{
+    width: 100%;
+    margin: 20px 0;
+}
+
+#container1 button{
+    width: 30%;
+    padding: 2px 2px;
+    border:1px solid grey;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#container3 span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2.5%;
+}
+
+    }
+
+
